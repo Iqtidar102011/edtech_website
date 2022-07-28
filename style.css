@@ -1,3 +1,7 @@
 .image_brightness {
     filter: brightness(50%);
 }
+
+.test {
+    border: 1px solid red;
+}
