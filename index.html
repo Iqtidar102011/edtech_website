@@ -11,62 +11,124 @@
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <!-- navbar starts -->
-        <section>
-            <nav class="navbar navbar-expand-lg bg-0">
-                <div class="container">
-                    <a class="navbar-brand" href="#">
-                        <img class="img-fluid"
-                            src="images/logo/stock-vector-simple-online-learning-logo-template-1796130265.jpg" alt=""
-                            width="30" height="24" class="d-inline-block align-text-top">
-                        EduOnline
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Deals</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Courses
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">UI/UX Design</a></li>
-                                    <li><a class="dropdown-item" href="#">Javascript</a></li>
 
-                                    <li><a class="dropdown-item" href="#">Fullstack Web Developement</a></li>
-                                    <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
-                                    <li><a class="dropdown-item" href="#">Photography Basic</a></li>
-                                    <li><a class="dropdown-item" href="#">Motion Grapics</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Success</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <button class="btn btn-outline-primary ms-5" type="submit">Register</button>
-                            </li>
+        <nav class="navbar navbar-expand-lg bg-0 fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid"
+                        src="images/logo/stock-vector-simple-online-learning-logo-template-1796130265.jpg" alt=""
+                        width="30" height="24" class="d-inline-block align-text-top">
+                    EduOnline
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Deals</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Courses
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">UI/UX Design</a></li>
+                                <li><a class="dropdown-item" href="#">Javascript</a></li>
 
-                        </ul>
+                                <li><a class="dropdown-item" href="#">Fullstack Web Developement</a></li>
+                                <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                                <li><a class="dropdown-item" href="#">Photography Basic</a></li>
+                                <li><a class="dropdown-item" href="#">Motion Grapics</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Success</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-outline-primary ms-5" type="submit">Register</button>
+                        </li>
 
-                    </div>
+                    </ul>
+
                 </div>
-            </nav>
-        </section>
+            </div>
+        </nav>
+
         <!-- navbar ends -->
+        <!-- slider starts -->
+        <section class="my-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div>
+                            <img class="img-fluid image_brightness" src="images/cover/cover-1.png" class="d-block w-100"
+                                alt="...">
+                        </div>
+                        <div
+                            class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                            <h1 class="fs-1 fw-bold">Get Started Digital Learning</h1>
+                            <p>Select your favourite courses and start learning from our professional instructors right
+                                from your home</p>
+                            <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div>
+                            <img class="img-fluid image_brightness" src="images/cover/cover-2.jpg" class="d-block w-100"
+                                alt="...">
+                        </div>
+                        <div
+                            class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                            <h1 class="fs-1 fw-bold">Get Started Digital Learning</h1>
+                            <p>Select your favourite courses and start learning from our professional instructors right
+                                from your home</p>
+                            <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div>
+                            <img class="img-fluid image_brightness" src="images/cover/cover-3.jpg" class="d-block w-100"
+                                alt="...">
+                        </div>
+                        <div
+                            class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                            <h1 class="fs-1 fw-bold">Get Started Digital Learning</h1>
+                            <p>Select your favourite courses and start learning from our professional instructors right
+                                from your home</p>
+                            <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- slider ends -->
+
     </header>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
