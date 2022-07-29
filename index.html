@@ -250,7 +250,7 @@
         <!-- ready to join start -->
         <section class="container my-5">
             <div
-                class="d-flex flex-lg-row flex-md-column flex-column justify-content-lg-between justify-content-md-center justify-content-center align-items-lg-center align-items-md-center align-items-center bg-primary text-white p-5">
+                class="d-flex flex-lg-row flex-md-column flex-column justify-content-lg-between justify-content-md-center justify-content-center align-items-lg-center align-items-md-center align-items-center bg-primary text-white p-5 border rounded-3">
                 <div>
                     <h2 class="text-lg-start text-md-center text-center">Ready to join?</h2>
                     <p>Join today to get in touch with upcoming new courses</p>
@@ -288,6 +288,83 @@
         </section>
 
         <!-- ready to join end -->
+        <!-- faq starts -->
+        <section class="container my-5">
+            <h1 class="text-center fw-bold my-5">Frequently Asked Questions</h1>
+            <p class="text-center my-5">some of the most frequenly asked questions from our learners.</p>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item my-4 border">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What is the difference between flexbox and grid ?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+
+                            The basic difference between CSS Grid Layout and CSS Flexbox Layout is that <strong>flexbox
+                                was designed for layout in one dimension - either a row or a column.</strong> Grid was
+                            designed for two-dimensional layout - rows, and columns at the same time.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 border">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What is the difference between Bootstrap and Tailwind CSS ?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The main difference between TailwindCSS and Bootstrap is that <strong>Tailwind CSS is not a
+                                UI kit.</strong> Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS
+                            doesn't have a default theme or built-in UI components. Instead, it comes with predesigned
+                            widgets you can use to build your site from scratch
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 border">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What is CSS box model?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The <strong>CSS box</strong> model is a container that contains multiple properties
+                            including borders, margin, padding, and the content itself. It is used to create the design
+                            and layout of web pages. It can be used as a toolkit for customizing the layout of different
+                            elements. The web browser renders every element as a rectangular box according to the CSS
+                            box model.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 border">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            What is semantic tag?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The HTML semantics refers to <strong>the tags that provide meaning to an HTML page rather
+                                than just presentation.</strong> It makes HTML more comprehensible by better defining
+                            the different sections and layout of web pages.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- faq ends -->
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
